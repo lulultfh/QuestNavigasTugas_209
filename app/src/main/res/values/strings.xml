@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Tugas_Prak5</string>
+    <string name="submit">Submit</string>
+    <string name="beranda">Beranda</string>
+    <string name="form_daftar">Formulir Pendaftaran</string>
+    <string name="listnyaKak">List Daftar Peserta</string>
+    <string name="sapaan">Selamat Datang</string>
+    <string name="namaaku">Lu\'lu\' Luthfiah</string>
+    <string name="nimku">20230140209</string>
+    <string name="nama_lengkap">NAMA LENGKAP</string>
+    <string name="jenis_kelamin">JENIS KELAMIN</string>
+    <string name="alamat">ALAMAT</string>
+    <string name="statuskawin">STATUS PERKAWINAN</string>
 </resources>
