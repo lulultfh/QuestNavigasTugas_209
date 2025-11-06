@@ -35,7 +35,7 @@ fun AppUlsSederhana(
             }
             composable(route = Navigasi.Detail.name){
                 TampilanInfo(
-                    onBerandaBtnClick = { cancelAndBackToFormulir(navController) },
+                    onBerandaBtnClick = { cancelAndBackToHome(navController) },
                     onFormBtnClick = {
                         navController.navigate(route = Navigasi.Formulir.name)
                     }
@@ -48,4 +48,9 @@ fun AppUlsSederhana(
             }
         }
     }
+}
+private fun cancelAndBackToHome(
+    navController: NavHostController
+){
+    navController.popBackStack(route = com.example.tugas_prak5.Navigasi.LandingPage.name, inclusive = false)
 }
