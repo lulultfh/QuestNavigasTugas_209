@@ -8,6 +8,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.tugas_prak5.view.FormIsi
+import com.example.tugas_prak5.view.Home
+import com.example.tugas_prak5.view.TampilanInfo
 
 enum class Navigasi{
     LandingPage,
@@ -41,9 +44,9 @@ fun AppUlsSederhana(
                     }
                 )
             }
-            composable(route = Navigasi.Detail.name) {
+            composable(route = Navigasi.Formulir.name) {
                 FormIsi(
-                    onBackBtnClick = navController.navigate(route = Navigasi.Detail.name)
+                    onBackBtnClick = {navController.navigate(route = Navigasi.Detail.name)}
                 )
             }
         }
