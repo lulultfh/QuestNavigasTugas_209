@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tugas_Prak5Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    AppUlsSederhana(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
