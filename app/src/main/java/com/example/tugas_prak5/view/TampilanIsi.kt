@@ -32,7 +32,7 @@ import com.example.tugas_prak5.R
 @Composable
 fun TampilanInfo(
     onBerandaBtnClick: ()-> Unit,
-    onFormBtnCLick:() -> Unit
+    onFormBtnClick:() -> Unit,
 ){
     val items = listOf(
         Pair(first = stringResource(id = R.string.nama_lengkap), second = "Aprilia Kurnianti"),
@@ -71,7 +71,7 @@ fun TampilanInfo(
                     Spacer(modifier = Modifier.height(height = 10.dp))
                     Button(
                         modifier = Modifier.fillMaxWidth(),
-                        onClick = onFormBtnCLick
+                        onClick = onFormBtnClick
                     ) { Text(text = stringResource(id = R.string.form_daftar)) }
                 }
             }
