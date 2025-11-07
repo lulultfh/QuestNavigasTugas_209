@@ -136,7 +136,7 @@ fun FormIsi(
                     )
                     Button(modifier = Modifier.fillMaxWidth(fraction = 1f).padding(all = 20.dp),
 //                    enabled = textAlamat.isNotEmpty(),
-                        onClick = {onBackBtnClick},
+                        onClick = {onBackBtnClick()},
                         colors = ButtonDefaults.buttonColors(
                             containerColor = colorResource(id = R.color.ungutua))) {
                         Text(text = stringResource(id = R.string.submit),
